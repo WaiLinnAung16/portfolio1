@@ -4,7 +4,7 @@ import { tracks } from "../data";
 
 const Music = () => {
   return (
-    <div id="music" className="bg-primary h-screen ">
+    <div id="music" className="bg-primary h-screen clear-both">
       <div className="container mx-auto">
         <h1 className="text-5xl font-black text-white p-5 font-mono uppercase">
           Music

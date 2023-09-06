@@ -3,7 +3,7 @@ import story1 from "/public/image0.jpeg";
 import tracks from "/public/tracks.png";
 const OurStory = () => {
   return (
-    <div id="ourstory" className="bg-primary text-white py-20">
+    <div id="ourstory" className="bg-primary text-white py-20 clear-both">
       <div className="container mx-auto px-5">
         <h1 className="text-5xl font-mono font-bold">Our Story</h1>
         <div className="mt-10">
