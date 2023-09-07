@@ -13,9 +13,9 @@ const MusicCard = ({ title, img, text }) => {
           <h1 className="font-bold text-2xl">{title}</h1>
           <p className="font-light">{text}</p>
           <div className="flex items-center gap-3 text-xl">
-            <BsSpotify />
-            <FaSoundcloud />
-            <BsYoutube />
+            <BsSpotify className="transition-all cursor-pointer hover:-translate-y-1 hover:text-green-400" />
+            <FaSoundcloud className="transition-all cursor-pointer hover:-translate-y-1 hover:text-orange-600" />
+            <BsYoutube className="transition-all cursor-pointer hover:-translate-y-1 hover:text-red-600" />
           </div>
         </div>
       </div>
