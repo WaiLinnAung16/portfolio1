@@ -17,9 +17,9 @@ const Navbar = ({ id, title }) => {
           scrollToAction(`${id}`);
         }, 100);
       }}
-      className="w-[100px] hidden md:block md:w-[50px] h-[25px] group overflow-hidden cursor-pointer font-mono text-center"
+      className="w-[100px]  md:w-[50px] h-[25px] group overflow-hidden cursor-pointer font-mono text-center"
     >
-      <h1 className="transition-all group-hover:-translate-y-5">{title}</h1>
+      <h1 className="transition-all group-hover:-translate-y-7">{title}</h1>
       <h1 className="transition-all group-hover:-translate-y-7 group-hover:border-b-2 group-hover:border-white">
         {title}
       </h1>
