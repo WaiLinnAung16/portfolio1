@@ -100,7 +100,7 @@ const Header = () => {
       </div>
       {/* Menu Slide */}
       <div
-        className={`h-screen bg-primary flex flex-col items-center pt-32 gap-5 text-white transition-transform duration-500 ${
+        className={`h-screen bg-primary flex flex-col items-center pt-40 gap-5 text-white transition-transform duration-500 ${
           openMenu ? "scale-100" : "scale-0"
         }`}
       >
