@@ -17,7 +17,7 @@ const Music = () => {
                 key={track.id}
                 title={track.title}
                 img={track.img}
-                text={track.text}
+                date={track.date}
               />
             );
           })}

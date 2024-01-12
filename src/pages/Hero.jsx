@@ -1,16 +1,14 @@
 import React from "react";
 import hero from "/public/image1.jpeg";
+import hero2 from "/public/hero2.jpg";
 import { Parallax } from "react-scroll-parallax";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css/core";
 
 const Hero = () => {
   return (
-    <div
-      className="flex justify-center items-center h-screen  bg-top bg-no-repeat"
-      style={{
-        backgroundImage: `url(${hero})`,
-      }}
-    >
-      <div className="text-white bg-black/70 h-screen backdrop-blur-sm">
+    <div className="flex justify-center items-center h-screen relative overflow-hidden">
+      <div className="z-30 text-white bg-black/70 h-screen backdrop-blur-sm">
         <Parallax
           speed={-10}
           scale={[1.2, 0.8]}
@@ -33,6 +31,22 @@ const Hero = () => {
       {/* <div className="">
         <img src={hero} alt="hero img" className=" h-screen" />
       </div> */}
+      <Splide
+        aria-label="My Favorite Images"
+        className="absolute top-1"
+        options={{
+          autoplay:true,
+          rewind: true,
+          type: 'fade', 
+        }}
+      >
+        <SplideSlide>
+          <img src={hero} alt="Image 1" className="w-full  h-full object-cover object-center"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img src={hero2} alt="Image 2" className="w-full h-full object-cover object-center"/>
+        </SplideSlide>
+      </Splide>
     </div>
   );
 };
