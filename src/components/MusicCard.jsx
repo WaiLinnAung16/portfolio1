@@ -4,10 +4,10 @@ import { BsFacebook, BsSpotify, BsYoutube } from "react-icons/bs";
 import { FaSoundcloud } from "react-icons/fa";
 const MusicCard = ({ title, img, date }) => {
   return (
-    <div className="col-span-12 lg:col-span-6 text-white">
+    <div className="col-span-12 lg:col-span-4 text-white shadow-lg shadow-red-600">
       <div className="flex gap-5 flex-col md:flex-row ">
         <div>
-          <img src={img} alt="" className="w-full h-[280px] object-cover" />
+          <img src={img} alt="" className="w-full h-[180px] object-cover" />
         </div>
         <div className="flex flex-col gap-3">
           <h1 className="font-bold text-2xl">{title}</h1>

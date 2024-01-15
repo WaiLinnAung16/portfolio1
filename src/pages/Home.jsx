@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import Tour from "./Tour";
 import Music from "./Music";
 import OurStory from "./OurStory";
+import Shows from "./Shows";
 
 const Home = () => {
   return (
