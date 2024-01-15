@@ -23,17 +23,17 @@ export const tracks = [
   },
   {
     id: 3,
-    img: inthepit,
-    title: "A Chit Tan Chin (REMIX)",
-    date:'Februray 14th 2017'
-  },
-  {
-    id: 4,
     img: 'https://i1.sndcdn.com/artworks-000207599193-nvo5jt-t500x500.jpg',
     title: "A Chit Tan Chin (REMIX)",
     date:'Februray 14th 2017'
   },
-
+  
+  {
+    id: 4,
+    img: inthepit,
+    title: "In The Pit",
+    date:'June 21th 2017'
+  },
   {
     id: 5,
     img: "https://i1.sndcdn.com/artworks-000472265148-unpuab-t500x500.jpg",
