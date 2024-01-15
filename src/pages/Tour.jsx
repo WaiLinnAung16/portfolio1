@@ -25,12 +25,6 @@ const Tour = () => {
 
         <div className=" grid grid-cols-12 gap-4 p-5">
           <TourHisCard show={show} setShow={setShow} />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
-          <TourCard />
         </div>
       </div>
 
